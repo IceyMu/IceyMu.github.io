@@ -1,0 +1,69 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Ashe&#x27;s Blog",
+    "description": "",
+    "home_page_url": "https://iceymu.github.io",
+    "feed_url": "https://iceymu.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Ashe"
+    },
+    "items": [
+        {
+            "id": "https://iceymu.github.io/how-to-cnc-parts-that-fit-existing-irregular-shapes.html",
+            "url": "https://iceymu.github.io/how-to-cnc-parts-that-fit-existing-irregular-shapes.html",
+            "title": "How to CNC Parts That Fit Existing Irregular Curves.",
+            "summary": "This article is still a work in progress it still needs to have photos added and needs more proof reading. Sometimes you run into the problem where you need to make one part that perfectly matches the shape of something you already have. CNC machines&hellip;",
+            "content_html": "<p><em>This article is still a work in progress it still needs to have photos added and needs more proof reading.</em></p>\n<p>Sometimes you run into the problem where you need to make one part that perfectly matches the shape of something you already have. CNC machines have the ability to produce basically any shape you want but it is often difficult to accurately recreate objects in CAD software such as SolidWorks. I am going to share a technique I use to import the curves of real objects into SolidWorks.</p>\n<p>The first example is for set of speakers I built a while back. I designed the exterior to be made of two pieces of sheet metal that were bent into U-shapes and welded together. While in CAD the bends were a perfect 90 degrees and the bend is a perfect circular arc, this is not something I can produce with the shape of the fingers on the break and the spring back in the metal. For presentation purposes I still wanted the back plate to exactly match the rest of the case.</p>\n<p>The solution is to place the shape want to copy onto a paper scanner like the kind you can find on many printers. This image can then be imported directly into SolidWorks using the \"insert sketch picture\" feature.</p>\n<p>The next step is to scale your scan to the correct size. To get the correct scaling you want to set the side lengths to the number of pixels in your scan divided by the DPI of the scan and then use inches for the units.</p>\n<p class=\"align-center\">=#pixels/DPI in</p>\n<p>You can easily get the resolution of your scan from the file properties in your OS but SolidWorks will also give you this since by default the side lengths of your picture will be the number of pixels times whatever the default length unit is for your part. The DPI is something you choose or can easily find in your scanning software.</p>\n<p>This technique leaves the top of the scanner open and so most of the image will be dark. If it is hard to see your item in the scans I like to cover the edges in masking tape to improve the contrast. And if you need to scan many similar items I like the colour the masking tape to make the scans easier to identify.</p>\n<p>Now that you have a properly scaled image of the curves you want in SolidWorks the next step is to simply trace it out in a sketch and now you have captured the item you are trying to match in your CAD software.</p>\n<p>In this example I used SolidWorks to make a DXF file that could then be fed into the OMAX software for making G-code for the water jet machine. If you use too many short lines tracing out your scan it confuses the software and you get a really wonky path. There is a feature to fix this called <span style=\"text-decoration: line-through;\"><strong><em>placeholder</em></strong></span> under <span style=\"text-decoration: line-through;\"><strong><em>placeholder</em></strong></span></p>\n<p>For the second example I am fixing my headphones where the headband has broken I want to 3D print a piece of plastic that I can glue on to reinforce it. The ear cups stop us from placing the headband down on the scanner like last time so we use a similar idea by taking a photo of the curve we want square on with a reference object with a known length in the photo.</p>\n<p>Now we can repeat the same steps as before but now we adjust the scale by first tracing out the known length and noting down the reported length and then using then multiplying the dimensions of the sketch picture by the scaling factor:</p>\n<p class=\"align-center\">reported length / real length</p>\n<p>Now that I have the curve I want I can make it part of a closed contour extrude it and make that part on my 3D printer.</p>\n<p>And we get a perfect fit.</p>",
+            "author": {
+                "name": "Ashe"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-10-01T13:58:14-07:00",
+            "date_modified": "2025-10-01T15:40:35-07:00"
+        },
+        {
+            "id": "https://iceymu.github.io/building-diy-bluetooth-speakers.html",
+            "url": "https://iceymu.github.io/building-diy-bluetooth-speakers.html",
+            "title": "Building DIY Bluetooth Speakers",
+            "summary": "This post is still a stub.",
+            "content_html": "<p>This post is still a stub.</p>",
+            "author": {
+                "name": "Ashe"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-10-01T13:57:41-07:00",
+            "date_modified": "2025-10-01T14:29:42-07:00"
+        },
+        {
+            "id": "https://iceymu.github.io/designing-a-playstation-controller-from-scratch-for-fighting-games.html",
+            "url": "https://iceymu.github.io/designing-a-playstation-controller-from-scratch-for-fighting-games.html",
+            "title": "Designing a PlayStation Controller From Scratch for Fighting Games",
+            "summary": "This article is currently a stub you can look at the files to build your own on Github https://github.com/IceyMu/Leverless-Controller",
+            "content_html": "<p>This article is currently a stub you can look at the files to build your own on Github</p>\n<p><a href=\"https://github.com/IceyMu/Leverless-Controller\">https://github.com/IceyMu/Leverless-Controller</a></p>",
+            "author": {
+                "name": "Ashe"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-10-01T13:57:24-07:00",
+            "date_modified": "2025-10-01T14:15:26-07:00"
+        },
+        {
+            "id": "https://iceymu.github.io/machining-a-pc-case-from-scratch.html",
+            "url": "https://iceymu.github.io/machining-a-pc-case-from-scratch.html",
+            "title": "Machining a PC Case From Scratch",
+            "summary": "This article is currently a stub you can look at the files to build your own on Github https://github.com/IceyMu/PC-Case",
+            "content_html": "<p>This article is currently a stub you can look at the files to build your own on Github</p>\n<p><a href=\"https://github.com/IceyMu/PC-Case\">https://github.com/IceyMu/PC-Case</a></p>",
+            "author": {
+                "name": "Ashe"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-10-01T13:57:09-07:00",
+            "date_modified": "2025-10-01T14:16:25-07:00"
+        }
+    ]
+}
